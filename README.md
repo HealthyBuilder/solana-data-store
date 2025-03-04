@@ -8,7 +8,6 @@ This project is a Solana smart contract built using **Anchor** that allows users
 - **Update** existing data stored in the account.
 - **Delete** the account and remove stored data.
 
-The smart contract and tests have been successfully executed, ensuring proper functionality.
 
 ## Test Results
 
@@ -33,7 +32,7 @@ Solana Data Store
 
 ### 1. Install Dependencies
 
-Navigate to your project directory and run:
+Run:
 
 ```sh
 yarn
@@ -41,15 +40,13 @@ yarn
 
 ### 2. Build the Smart Contract
 
-Compile the Anchor program:
-
 ```sh
 anchor build
 ```
 
 ### 3. Run Tests
 
-To verify that the smart contract works as expected:
+Verify the smart contract works as expected:
 
 ```sh
 anchor test
@@ -67,9 +64,6 @@ anchor run client
 
 - If running locally, ensure **Solana CLI, Anchor, Node.js, and Yarn** are installed.
 - You may need to adjust test code for local execution since some **Playground-exclusive features** (e.g., `pg.wallets.myWallet`) need manual keypair loading.
-- Or feel free to copy ***lib.rs*** and ***anchor.test.ts*** directly to Solana Playground
+- Or feel free to copy ***lib.rs*** and ***anchor.test.ts*** to Solana Playground and run directly.
 
-## License
-
-This project is open-source under the MIT License.
 
